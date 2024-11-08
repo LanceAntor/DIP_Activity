@@ -14,7 +14,7 @@ namespace ImageProcessing
 {
     public partial class Form1 : Form
     {
-        Bitmap loaded, processed, resultImage;
+        Bitmap loaded, processed, filter, resultImage;
         Bitmap imageB, imageA, colorgreen;
         Bitmap b;
         Device[] mgaDevice;
@@ -436,6 +436,113 @@ namespace ImageProcessing
             }
         }
 
-       
+        private void gAuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            filter = loaded;
+            BitmapFilter.GaussianBlur(filter, 4);
+            pictureBox2.Image = filter;
+        }
+
+        private void sharpenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            filter = loaded;
+            BitmapFilter.Sharpen(filter, 11);
+            pictureBox2.Image = filter;
+        }
+
+        private void meanRemovalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            filter = loaded;
+            BitmapFilter.MeanRemoval(filter, 9);
+            pictureBox2.Image = filter;
+        }
+
+        private void embossingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            filter = loaded;
+            BitmapFilter.EmbossLaplacian(filter);
+            pictureBox2.Image = filter;
+        }
+
+        private void horizontalVerticalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            filter = loaded;
+            BitmapFilter.EmbossHorsVers(filter);
+            pictureBox2.Image = filter;
+        }
+
+        private void lossyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            filter = loaded;
+            BitmapFilter.EmbossLossy(filter);
+            pictureBox2.Image = filter;
+        }
+
+        private void horizontalOnlyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            filter = loaded;
+            BitmapFilter.EmbossHor(filter);
+            pictureBox2.Image = filter;
+        }
+
+        private void verticalOnlyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            filter = loaded;
+            BitmapFilter.EmbossVert(filter);
+            pictureBox2.Image = filter;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (loaded != null)
+            {
+                loaded = new Bitmap(openFileDialog1.FileName);
+                pictureBox2.Image = loaded;
+            }
+        }
+
+        private void allDirectionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            filter = loaded;
+            BitmapFilter.EmbossAllDir(filter);
+            pictureBox2.Image = filter;
+        }
+
+        private void smoothToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            filter = loaded;
+            BitmapFilter.Smooth(filter, 11);
+            pictureBox2.Image = filter;
+        }
+
+        private void shrinkToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (loaded != null)
+            {
+
+                filter = (Bitmap)loaded.Clone();
+
+
+                ConvMatrix matrix = new ConvMatrix();
+                matrix.SetAll(1);
+                matrix.Factor = 9;
+
+
+                bool success = BitmapFilter.Conv3x3(filter, matrix);
+
+                if (success)
+                {
+                    pictureBox2.Image = filter;
+                }
+                else
+                {
+                    MessageBox.Show("An error occurred during convolution.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Load an image first.");
+            }
+        }
     }
 }

@@ -14,3 +14,20 @@ C:\Users\Lance Antor\source\repos\ImageProcessing\ImageProcessing\obj\Debug\net8
 C:\Users\Lance Antor\source\repos\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\ImageProcessing.pdb
 C:\Users\Lance Antor\source\repos\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\ImageProcessing.genruntimeconfig.cache
 C:\Users\Lance Antor\source\repos\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\ref\ImageProcessing.dll
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\bin\Debug\net8.0-windows\ImageProcessing.exe
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\bin\Debug\net8.0-windows\ImageProcessing.deps.json
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\bin\Debug\net8.0-windows\ImageProcessing.runtimeconfig.json
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\bin\Debug\net8.0-windows\ImageProcessing.dll
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\bin\Debug\net8.0-windows\ImageProcessing.pdb
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\ImageProcessing.Form1.resources
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\ImageProcessing.csproj.GenerateResource.cache
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\ImageProcessing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\ImageProcessing.AssemblyInfoInputs.cache
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\ImageProcessing.AssemblyInfo.cs
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\ImageProcessing.csproj.CoreCompileInputs.cache
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\ImageProcessing.sourcelink.json
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\ImageProcessing.dll
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\refint\ImageProcessing.dll
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\ImageProcessing.pdb
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\ImageProcessing.genruntimeconfig.cache
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\IS CLONES\ANTOR\ImageProcessing\ImageProcessing\obj\Debug\net8.0-windows\ref\ImageProcessing.dll
